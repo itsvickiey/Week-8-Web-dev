@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Thumb Plant Shop | Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1><a href="index.html">Green Thumb 🪴</a></h1>
+        <nav class="main-nav">
+            <button class="menu-toggle" aria-expanded="false" aria-controls="primary-navigation">☰</button>
+            <ul id="primary-navigation" data-visible="false">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="guides.html">Care Guides</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-grid">
+        <section class="contact-info">
+            <h2>Get In Touch</h2>
+            <p>We'd love to hear from you! Visit us, call us, or use the form below.</p>
+            
+            <h3>Our Location</h3>
+            <p>123 Green Street, Suite B<br>Botanical City, 90210</p>
+            <div class="map-placeholder">[Map Image/Embed Placeholder]</div>
+
+            <h3>Store Hours</h3>
+            <ul>
+                <li>Tuesday - Friday: 10:00 AM - 6:00 PM</li>
+                <li>Saturday: 10:00 AM - 4:00 PM</li>
+                <li>Sunday & Monday: Closed</li>
+            </ul>
+        </section>
+
+        <section class="contact-form-section">
+            <h2>Send Us a Message</h2>
+            
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name*</label>
+                    <input type="text" id="name" name="name" required aria-describedby="name-error">
+                    <span id="name-error" class="error-message"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" required aria-describedby="email-error">
+                    <span id="email-error" class="error-message"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message*</label>
+                    <textarea id="message" name="message" rows="5" required aria-describedby="message-error"></textarea>
+                    <span id="message-error" class="error-message"></span>
+                </div>
+                
+                <button type="submit" class="cta-button">Send Message</button>
+                <p id="form-status" class="status-message"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Green Thumb Plant Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+    <script src="js/validation.js" defer></script>
+</body>
+</html>

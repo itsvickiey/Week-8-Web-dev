@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Thumb Plant Shop | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1><a href="index.html"><img src="logo.png" alt="" >Green Thumb </a></h1>
+        <nav class="main-nav">
+            <button class="menu-toggle" aria-expanded="false" aria-controls="primary-navigation">
+                ☰
+            </button>
+            <ul id="primary-navigation" data-visible="false">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="guides.html">Care Guides</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <h2>Bring the Outdoors In.</h2>
+            <p>Curated plants and sustainable gardening tools for every space.</p>
+            <a href="shop.html" class="cta-button">Browse Our Collection</a>
+        </section>
+
+        <section class="featured-carousel">
+            <h3>Featured Plant of the Week</h3>
+            <div class="carousel-container">
+                <button class="carousel-btn prev-btn">❮</button>
+                <div class="carousel-slide" data-index="0">
+                    <figure>
+                        <img src="images/snake-plant.png" alt="Sansevieria Trifasciata">
+                        <figcaption>Snake Plant (Sansevieria)</figcaption>
+                    </figure>
+                </div>
+                <div class="carousel-slide hidden" data-index="1">
+                    <figure>
+                        <img src="images/fiddle-leaf.png" alt="Ficus Lyrata">
+                        <figcaption>Fiddle Leaf Fig (Ficus Lyrata)</figcaption>
+                    </figure>
+                </div>
+                <button class="carousel-btn next-btn">❯</button>
+            </div>
+        </section>
+
+        </main>
+
+    <footer>
+        <p>&copy; 2025 Green Thumb Plant Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>

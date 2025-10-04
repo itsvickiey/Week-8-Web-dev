@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Thumb Plant Shop | Care Guides</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1><a href="index.html">Green Thumb 🪴</a></h1>
+        <nav class="main-nav">
+            <button class="menu-toggle" aria-expanded="false" aria-controls="primary-navigation">☰</button>
+            <ul id="primary-navigation" data-visible="false">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="guides.html" class="active">Care Guides</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="guides-page">
+        <h2>Expert Care Guides</h2>
+        
+        <article class="guide-article">
+            <h3>The Essential Guide to Watering</h3>
+            <p>Watering is the most common pitfall for new plant parents. The key is consistency, not frequency. Always check the top two inches of soil before watering.</p>
+
+            <div class="expandable-content collapsed" id="water-guide-details">
+                <p><strong>Advanced Tip:</strong> Most tropical plants prefer deep, infrequent watering. Water until it drains from the bottom hole, then discard any excess water in the saucer after 30 minutes to prevent root rot. Succulents, on the other hand, require almost no water during winter dormancy.</p>
+                <p>Use filtered or distilled water if your tap water is heavily chlorinated, as this can affect sensitive plant roots over time.</p>
+            </div>
+            <button class="toggle-btn" data-target="water-guide-details" aria-expanded="false">
+                Read More Details
+            </button>
+        </article>
+
+        <article class="guide-article">
+            <h3>Choosing the Right Light</h3>
+            <p>Understanding light is crucial. 'Bright, indirect light' is the gold standard, meaning the plant can see the sky but the sun's rays aren't directly hitting its leaves.</p>
+        </article>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Green Thumb Plant Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+    <script src="js/guides.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Thumb Plant Shop | Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1><a href="index.html">Green Thumb 🪴</a></h1>
+        <nav class="main-nav">
+            <button class="menu-toggle" aria-expanded="false" aria-controls="primary-navigation">☰</button>
+            <ul id="primary-navigation" data-visible="false">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html" class="active">Shop</a></li>
+                <li><a href="guides.html">Care Guides</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="shop-page">
+        <h2>Our Plant Collection</h2>
+        
+        <div class="product-filters">
+            <button class="filter-btn active" data-filter="all">All Plants</button>
+            <button class="filter-btn" data-filter="succulents">Succulents</button>
+            <button class="filter-btn" data-filter="air-purifying">Air-Purifying</button>
+            <button class="filter-btn" data-filter="low-light">Low Light</button>
+        </div>
+
+        <section class="product-grid" id="productGrid">
+            
+            <article class="product-card" data-category="succulents">
+                <img src="images/product-succulent.png" alt="A small succulent plant">
+                <h3>Moonstone Succulent</h3>
+                <p class="price">$12.00</p>
+                <a href="#" class="cta-button mini-btn">View Details</a>
+            </article>
+
+            <article class="product-card" data-category="air-purifying">
+                <img src="images/snake-plant.png" alt="A tall snake plant">
+                <h3>Sansevieria</h3>
+                <p class="price">$25.00</p>
+                <a href="#" class="cta-button mini-btn">View Details</a>
+            </article>
+
+            <article class="product-card" data-category="low-light">
+                <img src="images/product-zz.png" alt="A dark green ZZ plant">
+                <h3>ZZ Plant</h3>
+                <p class="price">$35.00</p>
+                <a href="#" class="cta-button mini-btn">View Details</a>
+            </article>
+
+            <article class="product-card" data-category="succulents low-light">
+                <img src="images/product-aloe.png" alt="An Aloe Vera plant">
+                <h3>Aloe Vera</h3>
+                <p class="price">$18.00</p>
+                <a href="#" class="cta-button mini-btn">View Details</a>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Green Thumb Plant Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+    <script src="js/shop.js" defer></script>
+</body>
+</html>
